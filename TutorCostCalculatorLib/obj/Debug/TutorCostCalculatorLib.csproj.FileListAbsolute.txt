@@ -1,6 +1,0 @@
-D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalculatorLib\obj\Debug\TutorCostCalculatorLib.csproj.AssemblyReference.cache
-D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalculatorLib\obj\Debug\TutorCostCalculatorLib.csproj.CoreCompileInputs.cache
-D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalculatorLib\bin\Debug\TutorCostCalculatorLib.dll
-D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalculatorLib\bin\Debug\TutorCostCalculatorLib.pdb
-D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalculatorLib\obj\Debug\TutorCostCalculatorLib.dll
-D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalculatorLib\obj\Debug\TutorCostCalculatorLib.pdb
