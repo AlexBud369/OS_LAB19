@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorCostCalculatorTests", "TutorCostCalculatorTests\TutorCostCalculatorTests.csproj", "{0F80F53E-6EFF-4148-924A-89D362542046}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorCostCalculatorLib", "TutorCostCalculator\TutorCostCalculatorLib.csproj", "{B0C3C58F-36E8-4FB8-BF3F-D512690C8773}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorCostCalculatorLib", "TutorCostCalculatorLib\TutorCostCalculatorLib.csproj", "{6B1F9B0E-16A1-4C4D-9E7F-C7405F9E5AEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{0F80F53E-6EFF-4148-924A-89D362542046}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F80F53E-6EFF-4148-924A-89D362542046}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F80F53E-6EFF-4148-924A-89D362542046}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B0C3C58F-36E8-4FB8-BF3F-D512690C8773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0C3C58F-36E8-4FB8-BF3F-D512690C8773}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0C3C58F-36E8-4FB8-BF3F-D512690C8773}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0C3C58F-36E8-4FB8-BF3F-D512690C8773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1F9B0E-16A1-4C4D-9E7F-C7405F9E5AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1F9B0E-16A1-4C4D-9E7F-C7405F9E5AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1F9B0E-16A1-4C4D-9E7F-C7405F9E5AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1F9B0E-16A1-4C4D-9E7F-C7405F9E5AEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
