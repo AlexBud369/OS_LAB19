@@ -5,8 +5,6 @@ VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorCostCalculatorTests", "TutorCostCalculatorTests\TutorCostCalculatorTests.csproj", "{0F80F53E-6EFF-4148-924A-89D362542046}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorCostCalculatorLib", "TutorCostCalculatorLib\TutorCostCalculatorLib.csproj", "{6B1F9B0E-16A1-4C4D-9E7F-C7405F9E5AEF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorCostCalcLib", "TutorCostCalcLib\TutorCostCalcLib.csproj", "{2086A14F-1BE3-491E-A125-3283B12CEEB0}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{0F80F53E-6EFF-4148-924A-89D362542046}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F80F53E-6EFF-4148-924A-89D362542046}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F80F53E-6EFF-4148-924A-89D362542046}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B1F9B0E-16A1-4C4D-9E7F-C7405F9E5AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B1F9B0E-16A1-4C4D-9E7F-C7405F9E5AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B1F9B0E-16A1-4C4D-9E7F-C7405F9E5AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B1F9B0E-16A1-4C4D-9E7F-C7405F9E5AEF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2086A14F-1BE3-491E-A125-3283B12CEEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2086A14F-1BE3-491E-A125-3283B12CEEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2086A14F-1BE3-491E-A125-3283B12CEEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
