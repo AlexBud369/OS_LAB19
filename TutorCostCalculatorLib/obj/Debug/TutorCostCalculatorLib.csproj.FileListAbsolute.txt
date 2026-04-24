@@ -1,0 +1,2 @@
+D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalculatorLib\obj\Debug\TutorCostCalculatorLib.csproj.AssemblyReference.cache
+D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalculatorLib\obj\Debug\TutorCostCalculatorLib.csproj.CoreCompileInputs.cache
