@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Hotspots>
   <Hotspot>
-    <Assembly>TutorCostCalculatorLib</Assembly>
-    <Class>TutorCostCalculatorLib.Services.TutorCostCalculator</Class>
+    <Assembly>TutorCostCalcLib</Assembly>
+    <Class>TutorCostCalcLib.Services.TutorCostCalculator</Class>
     <MethodName>CalculatePackageCost(...)</MethodName>
     <ShortName />
-    <Line>54</Line>
+    <Line>61</Line>
     <FileIndex>0</FileIndex>
     <Metrics>
       <Metric>

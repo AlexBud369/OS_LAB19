@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TutorCostCalculatorTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f826a9515917c7837e5a3feed85e27cb3193301")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b89da75fa9b2b491d9bb0cce7424e8c565101768")]
 [assembly: System.Reflection.AssemblyProductAttribute("TutorCostCalculatorTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TutorCostCalculatorTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

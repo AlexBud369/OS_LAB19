@@ -1,0 +1,8 @@
+﻿
+namespace TutorCostCalcLib.Interfaces
+{
+    public interface IMaterialsFeeService
+    {
+        decimal GetCustomMaterialsFee(string subject, string difficulty);
+    }
+}

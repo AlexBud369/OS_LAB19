@@ -14,9 +14,9 @@ namespace TutorCostCalculatorLib.Models
 }
 */
 
-using TutorCostCalculatorLib.Enums;
+using TutorCostCalcLib.Enums;
 
-namespace TutorCostCalculatorLib.Models
+namespace TutorCostCalcLib.Models
 {
     public class TutoringRequest
     {

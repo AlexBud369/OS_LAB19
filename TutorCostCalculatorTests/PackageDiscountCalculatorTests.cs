@@ -1,4 +1,4 @@
-﻿using TutorCostCalculatorLib.Services;
+﻿using TutorCostCalcLib.Services;
 using Xunit;
 
 namespace TutorCostCalculatorTests;

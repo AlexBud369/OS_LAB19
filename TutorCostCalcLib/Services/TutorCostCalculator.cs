@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using TutorCostCalculatorLib.Enums;
-using TutorCostCalculatorLib.Interfaces;
-using TutorCostCalculatorLib.Models;
+using TutorCostCalcLib.Enums;
+using TutorCostCalcLib.Interfaces;
+using TutorCostCalcLib.Models;
 
-namespace TutorCostCalculatorLib.Services
+namespace TutorCostCalcLib.Services
 {
     public class TutorCostCalculator
     {

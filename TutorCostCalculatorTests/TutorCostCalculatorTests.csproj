@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TutorCostCalculator\TutorCostCalculatorLib.csproj" />
+    <ProjectReference Include="..\TutorCostCalcLib\TutorCostCalcLib.csproj" />
   </ItemGroup>
 
   <ItemGroup>

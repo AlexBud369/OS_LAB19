@@ -1,4 +1,4 @@
-﻿using TutorCostCalculatorLib.Enums;
+﻿using TutorCostCalcLib.Enums;
 
 namespace TutorCostCalculatorTests.TestData;
 

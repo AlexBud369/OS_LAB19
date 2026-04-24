@@ -1,292 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.978339350180505" branch-rate="1" lines-covered="271" lines-valid="277" branches-covered="64" branches-valid="64" complexity="111" version="0" timestamp="1774649904">
+<coverage line-rate="1" branch-rate="1" lines-covered="286" lines-valid="286" branches-covered="64" branches-valid="64" complexity="96" version="0" timestamp="1777079668">
   <sources />
   <packages>
-    <package name="TutorCostCalculatorLib" line-rate="0.945945945945946" branch-rate="1" complexity="84">
+    <package name="TutorCostCalcLib" line-rate="1" branch-rate="1" complexity="69">
       <classes>
-        <class name="TutorCostCalculatorLib.Models.TutoringQuote" filename="D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalculator\Models\TutoringQuote.cs" line-rate="1" branch-rate="1" complexity="7">
+        <class name="TutorCostCalcLib.Models.TutoringQuote" filename="D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalcLib\Models\TutoringQuote.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
-            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="3" hits="1" branch="false" />
-                <line number="4" hits="1" branch="false" />
-                <line number="5" hits="1" branch="false" />
-                <line number="6" hits="1" branch="false" />
-                <line number="7" hits="1" branch="false" />
-              </lines>
-            </method>
             <method name="get_TotalPackageCost" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="4" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="set_TotalPackageCost" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="4" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
               </lines>
             </method>
             <method name="get_CostPerLesson" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="set_CostPerLesson" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="5" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
               </lines>
             </method>
             <method name="get_Errors" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="6" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="set_Errors" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="6" hits="1" branch="false" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="3" hits="1" branch="false" />
-            <line number="4" hits="1" branch="false" />
-            <line number="5" hits="1" branch="false" />
-            <line number="6" hits="1" branch="false" />
-            <line number="7" hits="1" branch="false" />
-          </lines>
-        </class>
-        <class name="TutorCostCalculatorLib.Models.TutoringRequest" filename="D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalculator\Models\TutoringRequest.cs" line-rate="1" branch-rate="1" complexity="15">
-          <methods>
-            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="5" hits="1" branch="false" />
-                <line number="6" hits="1" branch="false" />
-                <line number="7" hits="1" branch="false" />
-                <line number="8" hits="1" branch="false" />
-                <line number="9" hits="1" branch="false" />
-                <line number="10" hits="1" branch="false" />
-                <line number="11" hits="1" branch="false" />
-                <line number="12" hits="1" branch="false" />
-                <line number="13" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="get_Subject" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="6" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="set_Subject" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="6" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="get_TutorQualification" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="7" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="set_TutorQualification" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="7" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="get_Difficulty" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="8" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="set_Difficulty" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="8" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="get_DurationMinutes" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="9" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="set_DurationMinutes" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="9" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="get_Format" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="10" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="set_Format" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="10" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="get_NeedMaterials" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="11" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="set_NeedMaterials" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="11" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="get_NumberOfLessons" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="12" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="set_NumberOfLessons" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="12" hits="1" branch="false" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="5" hits="1" branch="false" />
-            <line number="6" hits="1" branch="false" />
-            <line number="7" hits="1" branch="false" />
-            <line number="8" hits="1" branch="false" />
-            <line number="9" hits="1" branch="false" />
-            <line number="10" hits="1" branch="false" />
-            <line number="11" hits="1" branch="false" />
-            <line number="12" hits="1" branch="false" />
-            <line number="13" hits="1" branch="false" />
-          </lines>
-        </class>
-        <class name="TutorCostCalculatorLib.Services.PackageDiscountCalculator" filename="D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalculator\Services\PackageDiscountCalculator.cs" line-rate="1" branch-rate="1" complexity="14">
-          <methods>
-            <method name="GetDiscount" signature="(...)" line-rate="1" branch-rate="1" complexity="14">
-              <lines>
-                <line number="6" hits="1" branch="false" />
-                <line number="7" hits="1" branch="true" condition-coverage="100% (2/2)" />
-                <line number="8" hits="1" branch="true" condition-coverage="100% (4/4)" />
-                <line number="9" hits="1" branch="true" condition-coverage="100% (4/4)" />
-                <line number="10" hits="1" branch="true" condition-coverage="100% (4/4)" />
-                <line number="11" hits="1" branch="false" />
-                <line number="12" hits="1" branch="false" />
-                <line number="13" hits="1" branch="false" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="6" hits="1" branch="false" />
-            <line number="7" hits="1" branch="true" condition-coverage="100% (2/2)" />
-            <line number="8" hits="1" branch="true" condition-coverage="100% (4/4)" />
-            <line number="9" hits="1" branch="true" condition-coverage="100% (4/4)" />
-            <line number="10" hits="1" branch="true" condition-coverage="100% (4/4)" />
-            <line number="11" hits="1" branch="false" />
-            <line number="12" hits="1" branch="false" />
-            <line number="13" hits="1" branch="false" />
-          </lines>
-        </class>
-        <class name="TutorCostCalculatorLib.Services.TutorCostCalculator" filename="D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalculator\Services\TutorCostCalculator.cs" line-rate="1" branch-rate="1" complexity="43">
-          <methods>
-            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="44" hits="1" branch="false" />
-                <line number="45" hits="1" branch="false" />
-                <line number="46" hits="1" branch="false" />
-                <line number="47" hits="1" branch="false" />
-                <line number="48" hits="1" branch="false" />
-                <line number="49" hits="1" branch="false" />
-                <line number="50" hits="1" branch="false" />
-                <line number="51" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="CalculatePackageCost" signature="(...)" line-rate="1" branch-rate="1" complexity="40">
-              <lines>
-                <line number="54" hits="1" branch="false" />
-                <line number="55" hits="1" branch="false" />
-                <line number="57" hits="1" branch="true" condition-coverage="100% (4/4)" />
-                <line number="58" hits="1" branch="false" />
-                <line number="59" hits="1" branch="false" />
-                <line number="62" hits="1" branch="true" condition-coverage="100% (4/4)" />
-                <line number="63" hits="1" branch="false" />
-                <line number="64" hits="1" branch="false" />
-                <line number="67" hits="1" branch="true" condition-coverage="100% (4/4)" />
-                <line number="68" hits="1" branch="true" condition-coverage="100% (2/2)" />
-                <line number="69" hits="1" branch="false" />
-                <line number="71" hits="1" branch="true" condition-coverage="100% (4/4)" />
-                <line number="72" hits="1" branch="false" />
-                <line number="73" hits="1" branch="true" condition-coverage="100% (2/2)" />
-                <line number="74" hits="1" branch="false" />
-                <line number="77" hits="1" branch="true" condition-coverage="100% (2/2)" />
-                <line number="78" hits="1" branch="false" />
-                <line number="79" hits="1" branch="false" />
-                <line number="81" hits="1" branch="true" condition-coverage="100% (2/2)" />
-                <line number="82" hits="1" branch="false" />
-                <line number="83" hits="1" branch="false" />
-                <line number="86" hits="1" branch="true" condition-coverage="100% (4/4)" />
-                <line number="87" hits="1" branch="true" condition-coverage="100% (2/2)" />
-                <line number="88" hits="1" branch="false" />
-                <line number="89" hits="1" branch="false" />
-                <line number="90" hits="1" branch="false" />
-                <line number="92" hits="1" branch="true" condition-coverage="100% (4/4)" />
-                <line number="93" hits="1" branch="false" />
-                <line number="94" hits="1" branch="true" condition-coverage="100% (2/2)" />
-                <line number="95" hits="1" branch="false" />
-                <line number="96" hits="1" branch="false" />
-                <line number="98" hits="1" branch="false" />
-                <line number="100" hits="1" branch="true" condition-coverage="100% (2/2)" />
-                <line number="101" hits="1" branch="false" />
-                <line number="105" hits="1" branch="false" />
-                <line number="106" hits="1" branch="false" />
-                <line number="107" hits="1" branch="false" />
-                <line number="108" hits="1" branch="false" />
-                <line number="110" hits="1" branch="false" />
-                <line number="111" hits="1" branch="false" />
-                <line number="113" hits="1" branch="true" condition-coverage="100% (2/2)" />
-                <line number="114" hits="1" branch="false" />
-                <line number="115" hits="1" branch="false" />
-                <line number="118" hits="1" branch="false" />
-                <line number="119" hits="1" branch="false" />
-                <line number="121" hits="1" branch="false" />
-                <line number="122" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name="GetPackageDiscount" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="124" hits="1" branch="false" />
-              </lines>
-            </method>
-            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="13" hits="1" branch="false" />
-                <line number="14" hits="1" branch="false" />
-                <line number="15" hits="1" branch="false" />
-                <line number="16" hits="1" branch="false" />
-                <line number="17" hits="1" branch="false" />
-                <line number="18" hits="1" branch="false" />
-                <line number="19" hits="1" branch="false" />
                 <line number="20" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
                 <line number="22" hits="1" branch="false" />
                 <line number="23" hits="1" branch="false" />
                 <line number="24" hits="1" branch="false" />
                 <line number="25" hits="1" branch="false" />
                 <line number="26" hits="1" branch="false" />
                 <line number="27" hits="1" branch="false" />
-                <line number="29" hits="1" branch="false" />
-                <line number="30" hits="1" branch="false" />
-                <line number="31" hits="1" branch="false" />
-                <line number="32" hits="1" branch="false" />
-                <line number="33" hits="1" branch="false" />
-                <line number="34" hits="1" branch="false" />
-                <line number="35" hits="1" branch="false" />
-                <line number="37" hits="1" branch="false" />
-                <line number="38" hits="1" branch="false" />
-                <line number="39" hits="1" branch="false" />
-                <line number="40" hits="1" branch="false" />
-                <line number="41" hits="1" branch="false" />
-                <line number="42" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="1" branch="false" />
-            <line number="14" hits="1" branch="false" />
-            <line number="15" hits="1" branch="false" />
-            <line number="16" hits="1" branch="false" />
-            <line number="17" hits="1" branch="false" />
             <line number="18" hits="1" branch="false" />
             <line number="19" hits="1" branch="false" />
             <line number="20" hits="1" branch="false" />
@@ -296,111 +43,298 @@
             <line number="25" hits="1" branch="false" />
             <line number="26" hits="1" branch="false" />
             <line number="27" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="TutorCostCalcLib.Models.TutoringRequest" filename="D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalcLib\Models\TutoringRequest.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="get_Subject" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_TutorQualification" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Difficulty" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_DurationMinutes" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Format" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_NeedMaterials" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_NumberOfLessons" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
             <line number="29" hits="1" branch="false" />
-            <line number="30" hits="1" branch="false" />
             <line number="31" hits="1" branch="false" />
             <line number="32" hits="1" branch="false" />
             <line number="33" hits="1" branch="false" />
             <line number="34" hits="1" branch="false" />
             <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
             <line number="37" hits="1" branch="false" />
             <line number="38" hits="1" branch="false" />
             <line number="39" hits="1" branch="false" />
             <line number="40" hits="1" branch="false" />
             <line number="41" hits="1" branch="false" />
             <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="TutorCostCalcLib.Services.PackageDiscountCalculator" filename="D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalcLib\Services\PackageDiscountCalculator.cs" line-rate="1" branch-rate="1" complexity="14">
+          <methods>
+            <method name="GetDiscount" signature="(...)" line-rate="1" branch-rate="1" complexity="14">
+              <lines>
+                <line number="8" hits="1" branch="false" />
+                <line number="9" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="10" hits="1" branch="true" condition-coverage="100% (4/4)" />
+                <line number="11" hits="1" branch="true" condition-coverage="100% (4/4)" />
+                <line number="12" hits="1" branch="true" condition-coverage="100% (4/4)" />
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="1" branch="false" />
+            <line number="9" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="10" hits="1" branch="true" condition-coverage="100% (4/4)" />
+            <line number="11" hits="1" branch="true" condition-coverage="100% (4/4)" />
+            <line number="12" hits="1" branch="true" condition-coverage="100% (4/4)" />
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="TutorCostCalcLib.Services.TutorCostCalculator" filename="D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalcLib\Services\TutorCostCalculator.cs" line-rate="1" branch-rate="1" complexity="43">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="CalculatePackageCost" signature="(...)" line-rate="1" branch-rate="1" complexity="40">
+              <lines>
+                <line number="61" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="64" hits="1" branch="true" condition-coverage="100% (4/4)" />
+                <line number="65" hits="1" branch="false" />
+                <line number="67" hits="1" branch="true" condition-coverage="100% (4/4)" />
+                <line number="68" hits="1" branch="false" />
+                <line number="70" hits="1" branch="true" condition-coverage="100% (4/4)" />
+                <line number="71" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="72" hits="1" branch="true" condition-coverage="100% (4/4)" />
+                <line number="73" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="75" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="76" hits="1" branch="false" />
+                <line number="77" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="78" hits="1" branch="false" />
+                <line number="80" hits="1" branch="true" condition-coverage="100% (4/4)" />
+                <line number="81" hits="1" branch="false" />
+                <line number="82" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="83" hits="1" branch="false" />
+                <line number="84" hits="1" branch="false" />
+                <line number="86" hits="1" branch="true" condition-coverage="100% (4/4)" />
+                <line number="87" hits="1" branch="false" />
+                <line number="88" hits="1" branch="false" />
+                <line number="89" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="90" hits="1" branch="false" />
+                <line number="91" hits="1" branch="false" />
+                <line number="93" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="94" hits="1" branch="false" />
+                <line number="96" hits="1" branch="false" />
+                <line number="97" hits="1" branch="false" />
+                <line number="98" hits="1" branch="false" />
+                <line number="99" hits="1" branch="false" />
+                <line number="101" hits="1" branch="false" />
+                <line number="102" hits="1" branch="false" />
+                <line number="104" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="105" hits="1" branch="false" />
+                <line number="107" hits="1" branch="false" />
+                <line number="108" hits="1" branch="false" />
+                <line number="110" hits="1" branch="false" />
+                <line number="111" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetPackageDiscount" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="113" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
             <line number="44" hits="1" branch="false" />
             <line number="45" hits="1" branch="false" />
             <line number="46" hits="1" branch="false" />
             <line number="47" hits="1" branch="false" />
             <line number="48" hits="1" branch="false" />
             <line number="49" hits="1" branch="false" />
-            <line number="50" hits="1" branch="false" />
             <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
             <line number="54" hits="1" branch="false" />
             <line number="55" hits="1" branch="false" />
-            <line number="57" hits="1" branch="true" condition-coverage="100% (4/4)" />
+            <line number="56" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
             <line number="58" hits="1" branch="false" />
-            <line number="59" hits="1" branch="false" />
-            <line number="62" hits="1" branch="true" condition-coverage="100% (4/4)" />
-            <line number="63" hits="1" branch="false" />
-            <line number="64" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="64" hits="1" branch="true" condition-coverage="100% (4/4)" />
+            <line number="65" hits="1" branch="false" />
             <line number="67" hits="1" branch="true" condition-coverage="100% (4/4)" />
-            <line number="68" hits="1" branch="true" condition-coverage="100% (2/2)" />
-            <line number="69" hits="1" branch="false" />
-            <line number="71" hits="1" branch="true" condition-coverage="100% (4/4)" />
-            <line number="72" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="70" hits="1" branch="true" condition-coverage="100% (4/4)" />
+            <line number="71" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="72" hits="1" branch="true" condition-coverage="100% (4/4)" />
             <line number="73" hits="1" branch="true" condition-coverage="100% (2/2)" />
-            <line number="74" hits="1" branch="false" />
+            <line number="75" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="76" hits="1" branch="false" />
             <line number="77" hits="1" branch="true" condition-coverage="100% (2/2)" />
             <line number="78" hits="1" branch="false" />
-            <line number="79" hits="1" branch="false" />
-            <line number="81" hits="1" branch="true" condition-coverage="100% (2/2)" />
-            <line number="82" hits="1" branch="false" />
+            <line number="80" hits="1" branch="true" condition-coverage="100% (4/4)" />
+            <line number="81" hits="1" branch="false" />
+            <line number="82" hits="1" branch="true" condition-coverage="100% (2/2)" />
             <line number="83" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
             <line number="86" hits="1" branch="true" condition-coverage="100% (4/4)" />
-            <line number="87" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="87" hits="1" branch="false" />
             <line number="88" hits="1" branch="false" />
-            <line number="89" hits="1" branch="false" />
+            <line number="89" hits="1" branch="true" condition-coverage="100% (2/2)" />
             <line number="90" hits="1" branch="false" />
-            <line number="92" hits="1" branch="true" condition-coverage="100% (4/4)" />
-            <line number="93" hits="1" branch="false" />
-            <line number="94" hits="1" branch="true" condition-coverage="100% (2/2)" />
-            <line number="95" hits="1" branch="false" />
+            <line number="91" hits="1" branch="false" />
+            <line number="93" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="94" hits="1" branch="false" />
             <line number="96" hits="1" branch="false" />
+            <line number="97" hits="1" branch="false" />
             <line number="98" hits="1" branch="false" />
-            <line number="100" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="99" hits="1" branch="false" />
             <line number="101" hits="1" branch="false" />
+            <line number="102" hits="1" branch="false" />
+            <line number="104" hits="1" branch="true" condition-coverage="100% (2/2)" />
             <line number="105" hits="1" branch="false" />
-            <line number="106" hits="1" branch="false" />
             <line number="107" hits="1" branch="false" />
             <line number="108" hits="1" branch="false" />
             <line number="110" hits="1" branch="false" />
             <line number="111" hits="1" branch="false" />
-            <line number="113" hits="1" branch="true" condition-coverage="100% (2/2)" />
-            <line number="114" hits="1" branch="false" />
-            <line number="115" hits="1" branch="false" />
-            <line number="118" hits="1" branch="false" />
-            <line number="119" hits="1" branch="false" />
-            <line number="121" hits="1" branch="false" />
-            <line number="122" hits="1" branch="false" />
-            <line number="124" hits="1" branch="false" />
-          </lines>
-        </class>
-        <class name="TutorCostCalculatorLib.Stubs.AlwaysSpecializedMusicChecker" filename="D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalculator\Stubs\AlwaysSpecializedMusicChecker.cs" line-rate="0" branch-rate="1" complexity="1">
-          <methods>
-            <method name="HasRequiredSpecialization" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="12" hits="0" branch="false" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="12" hits="0" branch="false" />
-          </lines>
-        </class>
-        <class name="TutorCostCalculatorLib.Stubs.FixedMaterialsFeeService" filename="D:\Универ\6 семестр\тестирование\lab2\Lab2\TutorCostCalculator\Stubs\FixedMaterialsFeeService.cs" line-rate="0" branch-rate="1" complexity="2">
-          <methods>
-            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="9" hits="0" branch="false" />
-                <line number="10" hits="0" branch="false" />
-                <line number="11" hits="0" branch="false" />
-                <line number="12" hits="0" branch="false" />
-              </lines>
-            </method>
-            <method name="GetCustomMaterialsFee" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="14" hits="0" branch="false" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="9" hits="0" branch="false" />
-            <line number="10" hits="0" branch="false" />
-            <line number="11" hits="0" branch="false" />
-            <line number="12" hits="0" branch="false" />
-            <line number="14" hits="0" branch="false" />
+            <line number="113" hits="1" branch="false" />
           </lines>
         </class>
       </classes>

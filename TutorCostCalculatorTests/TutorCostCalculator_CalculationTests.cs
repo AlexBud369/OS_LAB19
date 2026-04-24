@@ -1,8 +1,8 @@
 ﻿using Moq;
-using TutorCostCalculatorLib.Services;
-using TutorCostCalculatorLib.Enums;
-using TutorCostCalculatorLib.Interfaces;
-using TutorCostCalculatorLib.Models;
+using TutorCostCalcLib.Services;
+using TutorCostCalcLib.Enums;
+using TutorCostCalcLib.Interfaces;
+using TutorCostCalcLib.Models;
 using TutorCostCalculatorTests.TestData;
 
 namespace TutorCostCalculatorTests;

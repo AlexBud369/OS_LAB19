@@ -11,7 +11,7 @@ namespace TutorCostCalculatorLib.Models
 
 using System.Collections.Generic;
 
-namespace TutorCostCalculatorLib.Models
+namespace TutorCostCalcLib.Models
 {
     public class TutoringQuote
     {
